@@ -1,0 +1,108 @@
+body
+{
+    background-color: #dd2a7b;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.form-body
+{
+    background-color: white;
+    margin: auto;
+    width: 40%;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: 50px;
+    height: 500px;
+}
+label
+{
+    display: block;
+    margin-bottom: 6px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #dd2a7b;
+
+}
+input
+{
+    margin-bottom: 15px;
+    margin-left: 50px;
+    padding-left: 5px;
+    height: 25px;
+    width: 80%;
+}
+textarea
+{
+    margin-bottom: 15px;
+    margin-left: 50px;
+    height: 65px;
+    width: 80%;
+    padding-left: 5px;
+
+}
+.btn
+{
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #dd2a7b;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+
+}
+.btn:hover
+{
+    background-color: #ff4f9e;
+    transition: 0.6s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+
+
+}
+.switchbtn
+{
+    margin-right: 50px;
+    float: right;
+    margin-top: 10px;
+    background-color: #8134af;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+}
+.switchbtn:hover
+{
+    background-color: #bd4aff;
+    transition: 0.6s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+
+}
+.switchbtn a
+{
+    
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+input,textarea:focus
+{
+    outline-color: #dd2a7b;    
+}
+h1
+{
+    color: #dd2a7b;
+    text-align: center;
+}
+.switchpage
+{
+    color: #fff;
+}

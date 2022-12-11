@@ -1,0 +1,57 @@
+body
+{
+    background-color: #da9733;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.card-body
+{
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: 50px;
+    height: 500px;
+    overflow-y:scroll;
+}
+table
+{
+    width: 90%;
+}
+
+h1
+{
+    color: #d4782c;
+    text-align: center;
+}
+.btn
+{
+    margin-left: 50px;
+    margin-top: 25px;
+    background-color: #173f5f;
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+
+
+}
+.btn:hover
+{
+    background-color: #20639b;
+    transition: 0.6s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+
+}
+.btn a
+{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
